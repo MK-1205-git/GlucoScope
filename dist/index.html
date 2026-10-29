@@ -3,28 +3,28 @@
 <head>
   <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Explore a reproducible diabetes-status ML investigation. Compare four algorithms, inspect evidence, and experiment privately in your browser.">
-  <meta name="theme-color" content="#123d31"><title>GlucoScope — The evidence behind the prediction</title>
+  <meta name="theme-color" content="#163449"><title>GlucoScope — Diabetes indicator research</title>
   <link rel="stylesheet" href="assets/styles.css">
 </head>
 <body>
   <a href="#main" class="skip">Skip to content</a>
-  <aside class="sidebar">
-    <a class="brand" href="#overview"><span class="brandmark">g<span>·</span></span><span>GlucoScope<small>THE ML RESEARCH LAB</small></span></a>
-    <div class="navlabel">WORKSPACE</div>
-    <nav aria-label="Main navigation">
-      <a href="#overview" data-page="overview"><span>◫</span> Overview</a>
-      <a href="#explorer" data-page="explorer"><span>⌁</span> Profile explorer</a>
-      <a href="#compare" data-page="compare"><span>▥</span> Model evidence</a>
-      <a href="#capacity" data-page="capacity"><span>◎</span> Capacity simulator</a>
-      <a href="#data" data-page="data"><span>▦</span> Dataset & methods</a>
-      <a href="#learn" data-page="learn"><span>↗</span> Learn & reproduce</a>
+  <div class="utility"><span>Independent student research · Public health data</span><div><a href="#learn">Learning center</a><a href="https://github.com/MK-1205-git/GlucoScope" target="_blank" rel="noreferrer">View on GitHub ↗</a></div></div>
+  <header class="site-header">
+    <a class="brand" href="#overview"><span class="brandmark" aria-hidden="true">G<span>+</span></span><span>GlucoScope<small>DIABETES INDICATOR RESEARCH</small></span></a>
+    <button id="menu-toggle" class="menu-toggle" aria-expanded="false" aria-controls="main-nav">Menu ☰</button>
+    <nav id="main-nav" aria-label="Main navigation">
+      <a href="#overview" data-page="overview">Home</a>
+      <a href="#compare" data-page="compare">Model evidence</a>
+      <a href="#capacity" data-page="capacity">Capacity simulator</a>
+      <a href="#data" data-page="data">Our methodology</a>
+      <a href="#learn" data-page="learn">Learn & resources</a>
+      <a href="#explorer" data-page="explorer" class="nav-cta">Explore a profile →</a>
     </nav>
-    <div class="sidebar-bottom"><span class="pill">RESEARCH EDITION · v1.0</span><p>Real models.<br>Visible trade-offs.<br>Reproducible evidence.</p><a href="https://archive.ics.uci.edu/dataset/891/cdc+diabetes+health+indicators" target="_blank" rel="noreferrer">UCI dataset ↗</a></div>
-  </aside>
+  </header>
   <div class="workspace">
-    <header class="topbar"><span>Research workspace <span class="slash">/</span> <b id="breadcrumb">Overview</b></span><span class="status"><i></i> Models trained · browser inference</span></header>
+    <header class="topbar"><span>Diabetes research <span class="slash">/</span> <b id="breadcrumb">Overview</b></span><span class="status"><i></i> Private, in-browser predictions</span></header>
     <main id="main" tabindex="-1"><div class="loading">Loading the research artifacts…</div></main>
-    <footer>GlucoScope · Built by Mushtahir Kabir & team <span>Educational research. Not a diagnostic or medical advice service.</span></footer>
+    <footer><div><a class="footer-brand" href="#overview">GlucoScope</a><p>Diabetes indicator research<br>Built by Mushtahir Kabir & team</p></div><div><b>Open research. Clear limitations.</b><p>Educational research. Not a diagnostic or medical advice service.<br>No account required. Entered profiles are not saved.</p><a href="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d">Illustrative healthcare photography · Unsplash</a></div></footer>
   </div>
   <script type="module" src="assets/app.mjs"></script>
 </body>

@@ -1,18 +1,14 @@
 name: Verify published research artifacts
 on: [push, pull_request]
-
 jobs:
   verify:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-
       - name: Create downloadable source ZIP
         run: git archive --format=zip --output=dist/downloads/glucoscope-source.zip HEAD
-
       - run: npm install --ignore-scripts
       - run: npm test

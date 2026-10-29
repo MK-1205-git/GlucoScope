@@ -86,7 +86,7 @@ docker run --rm -p 8080:80 glucoscope
 
 ## GitHub handoff
 
-This project is source-controlled for Sites hosting, but it is not yet in your personal GitHub account. Create an empty repository and publish the portable source under your account. A portable ZIP in `dist/downloads/` excludes host-specific identity and raw data. Do not publish credentials or commit downloaded data without checking its license.
+The personal project repository is https://github.com/MK-1205-git/GlucoScope. Sites publication and GitHub pushes are separate: pushing to GitHub runs verification but does not update Sites hosting. A portable ZIP in `dist/downloads/` excludes host-specific identity and raw data. Do not publish credentials or commit downloaded data without checking its license.
 
 ## Limits and intended use
 

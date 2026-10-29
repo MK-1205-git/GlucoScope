@@ -210,7 +210,7 @@ docker run --rm -p 8080:80 glucoscope
 
 ## GitHub handoff
 
-This project is source-controlled for Sites hosting, but it is not yet in your personal GitHub account. Create an empty repository and publish the portable source under your account. A portable ZIP in `dist/downloads/` excludes host-specific identity and raw data. Do not publish credentials or commit downloaded data without checking its license.
+The personal project repository is https://github.com/MK-1205-git/GlucoScope. Sites publication and GitHub pushes are separate: pushing to GitHub runs verification but does not update Sites hosting. A portable ZIP in `dist/downloads/` excludes host-specific identity and raw data. Do not publish credentials or commit downloaded data without checking its license.
 
 ## Limits and intended use
 
@@ -222,7 +222,7 @@ Research and education, not diagnosis, medical advice, future-risk forecasting, 
 '''
     (ROOT/'README.md').write_text(readme)
     downloads=ROOT/'dist/downloads'; downloads.mkdir(exist_ok=True)
-    for name in ['research-report.md','teaching-guide.md','rubric-checklist.md']:
+    for name in ['research-report.md','teaching-guide.md','rubric-checklist.md','product-testing-checklist.md']:
         shutil.copyfile(ROOT/'docs'/name,downloads/name)
     # Portable archive intentionally excludes hosting identity, git, original data, and itself.
     with zipfile.ZipFile(downloads/'glucoscope-source.zip','w',zipfile.ZIP_DEFLATED) as z:
