@@ -1,0 +1,12 @@
+{
+  "name": "glucoscope-ml",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A reproducible diabetes-status ML investigation with browser-native inference",
+  "scripts": {
+    "test": "node tests/parity.mjs && node tests/ui.mjs",
+    "test:parity": "node tests/parity.mjs"
+  },
+  "devDependencies": {"jsdom": "26.1.0"}
+}

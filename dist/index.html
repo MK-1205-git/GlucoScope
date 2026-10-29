@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Explore a reproducible diabetes-status ML investigation. Compare four algorithms, inspect evidence, and experiment privately in your browser.">
+  <meta name="theme-color" content="#123d31"><title>GlucoScope — The evidence behind the prediction</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <a href="#main" class="skip">Skip to content</a>
+  <aside class="sidebar">
+    <a class="brand" href="#overview"><span class="brandmark">g<span>·</span></span><span>GlucoScope<small>THE ML RESEARCH LAB</small></span></a>
+    <div class="navlabel">WORKSPACE</div>
+    <nav aria-label="Main navigation">
+      <a href="#overview" data-page="overview"><span>◫</span> Overview</a>
+      <a href="#explorer" data-page="explorer"><span>⌁</span> Profile explorer</a>
+      <a href="#compare" data-page="compare"><span>▥</span> Model evidence</a>
+      <a href="#capacity" data-page="capacity"><span>◎</span> Capacity simulator</a>
+      <a href="#data" data-page="data"><span>▦</span> Dataset & methods</a>
+      <a href="#learn" data-page="learn"><span>↗</span> Learn & reproduce</a>
+    </nav>
+    <div class="sidebar-bottom"><span class="pill">RESEARCH EDITION · v1.0</span><p>Real models.<br>Visible trade-offs.<br>Reproducible evidence.</p><a href="https://archive.ics.uci.edu/dataset/891/cdc+diabetes+health+indicators" target="_blank" rel="noreferrer">UCI dataset ↗</a></div>
+  </aside>
+  <div class="workspace">
+    <header class="topbar"><span>Research workspace <span class="slash">/</span> <b id="breadcrumb">Overview</b></span><span class="status"><i></i> Models trained · browser inference</span></header>
+    <main id="main" tabindex="-1"><div class="loading">Loading the research artifacts…</div></main>
+    <footer>GlucoScope · Built by Mushtahir Kabir & team <span>Educational research. Not a diagnostic or medical advice service.</span></footer>
+  </div>
+  <script type="module" src="assets/app.mjs"></script>
+</body>
+</html>

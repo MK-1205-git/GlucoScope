@@ -1,0 +1,1 @@
+{"winner":"Random forest","criterion":"Validation average precision among four full models","thresholds":{"Logistic regression":0.1936104592404326,"Decision tree":0.14430399860690654,"Random forest":0.17229510855451913,"Gradient boosting":0.2047056856063502,"Short-form logistic":0.19105064321396412}}
