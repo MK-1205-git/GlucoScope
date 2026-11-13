@@ -2,7 +2,7 @@
 
 **An explainable, reproducible diabetes-status ML research lab.**
 
-Live application: https://glucoscope-mushtahir-ml.mushtahirkabir.chatgpt.site
+Live application: https://glucoscope-research.pages.dev
 
 Author: Mushtahir Kabir & team. Educational research only; not a medical diagnostic system.
 
